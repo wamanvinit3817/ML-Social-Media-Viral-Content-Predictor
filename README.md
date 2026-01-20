@@ -1,6 +1,7 @@
 Social Media Virality Prediction
 
 This project focuses on predicting whether a social media post will become viral or non-viral using supervised machine learning. The problem is modeled as a binary classification task with a significantly imbalanced target variable (is_viral), making metric selection and leakage prevention critical.
+Note - All the ML algorithms used are not just implemented using sklearn libraries, they are studied mathematically and even some of them are implemented from scratch like KNN,Linear Regression etc.
 
 Dataset & Features
 
@@ -28,8 +29,6 @@ The following models were trained and evaluated:
 Logistic Regression
 
 K-Nearest Neighbors (KNN) with hyperparameter tuning over multiple values of k
-
-Gaussian Naive Bayes
 
 Decision Tree Classifier
 
